@@ -3,6 +3,7 @@ import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import User from './routers/user';
+import Photo from './routers/photo';
 import Navbar from './component/Navbar';
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
         <Navbar/>
         <Routes>
             <Route path="/user" element={<User/>}/>
+            <Route path="/photo" element={<Photo/>}/>
+
+
         </Routes>
       </Router>
     </div>

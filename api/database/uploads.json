@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "1639733653090-573938085.png",
+    "path": "uploads\\1639733653090-573938085.png",
+    "author": "Bojji",
+    "url": "http://localhost:8080/uploads/1639733653090-573938085.png",
+    "tags": [
+      "car"
+    ]
+  },
+  {
+    "name": "1639733797697-428784294.png",
+    "path": "uploads\\1639733797697-428784294.png",
+    "author": "Bojji",
+    "url": "http://localhost:8080/uploads/1639733797697-428784294.png",
+    "tags": [
+      "car"
+    ]
+  }
+]

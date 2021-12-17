@@ -22,7 +22,9 @@ export default function User() {
 
       const { data } = await response.json();
       setToken(data.token);
-      navigate("/dashboard");
+      console.log(data)
+      navigate("/dashboar");
+
     }
 
     return (
