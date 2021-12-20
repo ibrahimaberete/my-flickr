@@ -21,15 +21,13 @@ export default function Photo() {
             <div>
             <p> Welcome</p>
             
-
+            <div style={{ flex: 1 }}>
             {
-                images.map((image)=>( 
-                <div>
-                    
-                    <img src={image.url}/>
-                </div> 
+                images.map((image)=>(
+                    <img style={{ width: 250, height: 250 , marginRight: 10 }} src={image.url}/>
                 ))
             }
+            </div>
             
         </div>
     )
